@@ -1,0 +1,475 @@
+#nav-bar {
+    margin-top: 30px; 
+    margin-left: 80px; 
+    margin-right: 70px;
+  }
+  
+
+  .navbar-nav .nav-link,
+  .navbar-brand {
+    color: rgb(103, 31, 170) !important; 
+    padding: 0;
+    font-weight: 600;
+   
+  }
+  .nav-item:hover .nav-link {
+    text-decoration: underline;
+    text-decoration-color: rgb(103, 31, 170);
+}
+
+  .content{
+    margin-top: 100px;
+    margin-left: 105px;
+    
+  }
+  
+  .heading{
+    color: rgb(92, 32, 222);
+  }
+  .heading2{
+    color: orange;
+  }
+  .btn-primary{
+    background-color: rgb(92, 32, 222) !important; 
+    color: white !important; 
+    border: none; 
+    margin-left: -10px;
+  }
+  
+ 
+  
+  .btn-outline-secondary {
+    color: rgb(92, 32, 222) !important; 
+    border: 0.4px solid rgb(92, 32, 222) !important; 
+  }
+  
+ 
+  .img-one{
+    margin-top: -300px;
+   margin-right: 70px;
+    
+  }
+  .features{
+    margin-top: 600px;
+    margin-left: 105px;
+    margin-right: 70px;
+  }
+  .features img{
+    margin-top: 80px;
+
+  }
+  
+  .para1{
+    margin-top: 110px;
+    margin-left: 490px;
+    font-size: larger;
+    font-weight: 600;
+  }
+  .para2{
+    margin-top: -15px;
+    margin-left: 490px;
+  }
+  .feature-one img{
+    margin-top: -120px;
+    margin-left: -60px;
+  }
+  .para3{
+    margin-top: 480px;
+    font-size: larger;
+    font-weight: 600;
+   
+  }
+  .para4{
+    margin-top: -15px;
+   
+  }
+  .image img{
+   
+    position: relative;
+    top: 1500px;
+    left: 738px;
+  }
+  .feature-two img{
+    margin-top: -20px;
+  }
+   .para5{
+    margin-top: 480px;
+    margin-left: 490px;
+    font-size: larger;
+    font-weight: 600;
+   
+  }
+  .para6{
+    margin-left: 490px;
+    margin-top: -15px;
+  }
+
+
+
+.Testimonials{
+  margin-top: 100px;
+}
+
+
+.carousel-caption {
+  position: absolute;
+ top: 100px; 
+
+  text-align: center; 
+  left: 100%; 
+
+}
+
+.carousel-indicators {
+  position: absolute; 
+  top: 400px; 
+  left: 300px; 
+ 
+}
+.carousel-control-prev{
+     margin-left: 70px;
+     margin-top: -90px;
+}
+.carousel-control-next{
+  margin-right: 70px;
+  margin-top: -90px;
+}
+  
+
+  .products{
+    display: inline-block;
+    margin-left: 90px; 
+    margin-right: 70px;
+  }
+  
+  .card{
+    margin-top: 30px;
+  }
+
+  form{
+    margin-top: -450px;
+    margin-left: 450px;
+}
+input,
+textarea {
+    width: 540px !important; 
+}
+
+.contact{
+  margin-top: -10px;
+
+}
+.contact img{
+    margin-left: 50px;
+    margin-top: -80px;
+   
+}
+.contact h2{
+  margin-bottom: 50px;
+}
+.footer{
+  margin-top: 150px;
+  color: white;
+  background-image: linear-gradient(to right, #863dfa ,  rgb(35, 4, 172));
+  
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  margin-left: 20px; 
+  margin-right: 10px;
+  display: flex;
+
+}
+.footer-content{
+  width: 510px;
+  margin-top: -35px;
+}
+.footer-content p,h5{
+  line-height: 10px;
+  
+  font-size: small;
+}
+.footer-content h5{
+  margin-bottom: 20px;
+}
+
+/* 
+animation */
+
+.img-one,.float-start{
+    position: relative;
+    animation: moveImagevertical 8s infinite alternate;
+}
+@keyframes  moveImagevertical {
+    0%{
+        top: 0;
+    }
+    50%{
+top: 50px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+
+  /* Extra Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #nav-bar {
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .content, .features, .para1, .para3, .para5 {
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .img-one, .feature-one img, .feature-two img {
+      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .para2, .para4, .para6 {
+      margin-left: 10px;
+    }
+  
+    .image img {
+      top: 100px;
+      left: 10px;
+      width: 100%;
+    }
+  
+    .footer {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 30px;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    form {
+      margin-top: 20px;
+      margin-left: 10px;
+      width: 100%;
+    }
+  
+    input, textarea {
+      width: 100% !important;
+    }
+  
+    .carousel-caption {
+      top: 50px;
+      left: 10%;
+      right: 10%;
+    }
+  
+    .carousel-indicators {
+      top: 300px;
+      left: 0;
+      right: 0;
+      justify-content: center;
+    }
+  
+    .carousel-control-prev, .carousel-control-next {
+      margin: 0;
+    }
+  }
+  
+  /* Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) {
+    #nav-bar {
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .content, .features, .para1, .para3, .para5 {
+      margin-top: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .img-one, .feature-one img, .feature-two img {
+      margin-top: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .para2, .para4, .para6 {
+      margin-left: 20px;
+    }
+  
+    .image img {
+      top: 800px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+    }
+  
+    .footer {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-top: 40px;
+    }
+  
+    form {
+      margin-top: -200px;
+      margin-left: 20px;
+      width: 90%;
+    }
+  
+    input, textarea {
+      width: 90% !important;
+    }
+  
+    .carousel-caption {
+      top: 80px;
+      left: 15%;
+      right: 15%;
+    }
+  
+    .carousel-indicators {
+      top: 350px;
+      left: 50px;
+      right: 50px;
+      justify-content: center;
+    }
+  
+    .carousel-control-prev, .carousel-control-next {
+      margin: 0;
+    }
+  }
+  
+  /* Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+    #nav-bar {
+      margin-top: 25px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  
+    .content, .features, .para1, .para3, .para5 {
+      margin-top: 80px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  
+    .img-one, .feature-one img, .feature-two img {
+      margin-top: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .para2, .para4, .para6 {
+      margin-left: 30px;
+    }
+  
+    .image img {
+      top: 1000px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+  
+    .footer {
+      margin-left: 30px;
+      margin-right: 30px;
+      padding-top: 50px;
+    }
+  
+    form {
+      margin-top: -300px;
+      margin-left: 30px;
+      width: 85%;
+    }
+  
+    input, textarea {
+      width: 85% !important;
+    }
+  
+    .carousel-caption {
+      top: 100px;
+      left: 20%;
+      right: 20%;
+    }
+  
+    .carousel-indicators {
+      top: 380px;
+      left: 100px;
+      right: 100px;
+      justify-content: center;
+    }
+  
+    .carousel-control-prev, .carousel-control-next {
+      margin: 0;
+    }
+  }
+  
+  /* Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {
+    #nav-bar {
+      margin-top: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .content, .features, .para1, .para3, .para5 {
+      margin-top: 100px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .img-one, .feature-one img, .feature-two img {
+      margin-top: 50px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  
+    .para2, .para4, .para6 {
+      margin-left: 40px;
+    }
+  
+    .image img {
+      top: 1200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 75%;
+    }
+  
+    .footer {
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-top: 60px;
+    }
+  
+    form {
+      margin-top: -400px;
+      margin-left: 40px;
+      width: 80%;
+    }
+  
+    input, textarea {
+      width: 80% !important;
+    }
+  
+    .carousel-caption {
+      top: 120px;
+      left: 25%;
+      right: 25%;
+    }
+  
+    .carousel-indicators {
+      top: 400px;
+      left: 150px;
+      right: 150px;
+      justify-content: center;
+    }
+  
+    .carousel-control-prev, .carousel-control-next {
+      margin: 0;
+    }
+  }
+  
