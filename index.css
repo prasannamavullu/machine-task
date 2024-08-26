@@ -211,205 +211,128 @@ top: 50px;
     }
 }
 
+/* Extra Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #nav-bar {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .content {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .img-one {
+    margin-top: 0;
+    margin-right: 5px;
+    width: 100%;
+  }
+
+  .features {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .features img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .para1, .para2, .para3, .para4, .para5, .para6 {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: medium;
+  }
+
+  .feature-one img {
+   margin-top: -350px;
+  }
+  .feature-two img{
+    margin-top: -320px !important;
+  }
+
+  .Testimonials {
+    margin-top: 50px;
+  }
+
+  .carousel-caption {
+    top: 50px;
+    left: 5%;
+    right: 5%;
+    font-size: small;
+  }
+  .carousel-control-next,
+.carousel-control-prev{
+  margin-left:10px;
+  margin-right: 10px;
+  }
+
+  .carousel-indicators {
+    top: 400px;
+    left: 10%;
+    right: 10%;
+  }
+
+  .products {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .card {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  form {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    width: 100% !important;
+  }
+
+  .contact img {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .footer-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .footer-content p,
+  h5 {
+    font-size: small;
+  }
+}
+
 
   /* Extra Small devices (phones, less than 576px) */
-@media (max-width: 575.98px) {
-    #nav-bar {
-      margin-top: 15px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  
-    .content, .features, .para1, .para3, .para5 {
-      margin-top: 20px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  
-    .img-one, .feature-one img, .feature-two img {
-      margin-top: 20px;
-      margin-left: 0;
-      margin-right: 0;
-    }
-  
-    .para2, .para4, .para6 {
-      margin-left: 10px;
-    }
-  
-    .image img {
-      top: 100px;
-      left: 10px;
-      width: 100%;
-    }
-  
-    .footer {
-      margin-left: 10px;
-      margin-right: 10px;
-      padding-top: 30px;
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    form {
-      margin-top: 20px;
-      margin-left: 10px;
-      width: 100%;
-    }
-  
-    input, textarea {
-      width: 100% !important;
-    }
-  
-    .carousel-caption {
-      top: 50px;
-      left: 10%;
-      right: 10%;
-    }
-  
-    .carousel-indicators {
-      top: 300px;
-      left: 0;
-      right: 0;
-      justify-content: center;
-    }
-  
-    .carousel-control-prev, .carousel-control-next {
-      margin: 0;
-    }
-  }
-  
-  /* Small devices (landscape phones, less than 768px) */
-  @media (max-width: 767.98px) {
-    #nav-bar {
-      margin-top: 20px;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  
-    .content, .features, .para1, .para3, .para5 {
-      margin-top: 50px;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  
-    .img-one, .feature-one img, .feature-two img {
-      margin-top: 30px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  
-    .para2, .para4, .para6 {
-      margin-left: 20px;
-    }
-  
-    .image img {
-      top: 800px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 90%;
-    }
-  
-    .footer {
-      margin-left: 20px;
-      margin-right: 20px;
-      padding-top: 40px;
-    }
-  
-    form {
-      margin-top: -200px;
-      margin-left: 20px;
-      width: 90%;
-    }
-  
-    input, textarea {
-      width: 90% !important;
-    }
-  
-    .carousel-caption {
-      top: 80px;
-      left: 15%;
-      right: 15%;
-    }
-  
-    .carousel-indicators {
-      top: 350px;
-      left: 50px;
-      right: 50px;
-      justify-content: center;
-    }
-  
-    .carousel-control-prev, .carousel-control-next {
-      margin: 0;
-    }
-  }
-  
-  /* Medium devices (tablets, less than 992px) */
-  @media (max-width: 991.98px) {
-    #nav-bar {
-      margin-top: 25px;
-      margin-left: 30px;
-      margin-right: 30px;
-    }
-  
-    .content, .features, .para1, .para3, .para5 {
-      margin-top: 80px;
-      margin-left: 30px;
-      margin-right: 30px;
-    }
-  
-    .img-one, .feature-one img, .feature-two img {
-      margin-top: 40px;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  
-    .para2, .para4, .para6 {
-      margin-left: 30px;
-    }
-  
-    .image img {
-      top: 1000px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 80%;
-    }
-  
-    .footer {
-      margin-left: 30px;
-      margin-right: 30px;
-      padding-top: 50px;
-    }
-  
-    form {
-      margin-top: -300px;
-      margin-left: 30px;
-      width: 85%;
-    }
-  
-    input, textarea {
-      width: 85% !important;
-    }
-  
-    .carousel-caption {
-      top: 100px;
-      left: 20%;
-      right: 20%;
-    }
-  
-    .carousel-indicators {
-      top: 380px;
-      left: 100px;
-      right: 100px;
-      justify-content: center;
-    }
-  
-    .carousel-control-prev, .carousel-control-next {
-      margin: 0;
-    }
-  }
+
   
   /* Large devices (desktops, less than 1200px) */
-  @media (max-width: 1199.98px) {
+  /* @media (max-width: 1199.98px) {
     #nav-bar {
       margin-top: 30px;
       margin-left: 40px;
@@ -422,12 +345,15 @@ top: 50px;
       margin-right: 40px;
     }
   
-    .img-one, .feature-one img, .feature-two img {
+    .img-one,  .feature-two img {
       margin-top: 50px;
-      margin-left: 30px;
+      margin-left: -30px;
       margin-right: 30px;
     }
-  
+    .feature-one img{
+      margin-left: 100px !important;
+      margin-right: 50px !important;
+    }
     .para2, .para4, .para6 {
       margin-left: 40px;
     }
@@ -472,4 +398,4 @@ top: 50px;
       margin: 0;
     }
   }
-  
+   */
